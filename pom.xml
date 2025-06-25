@@ -75,10 +75,14 @@
 					</annotationProcessorPaths>
 				</configuration>
 			</plugin>
+
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+					<image>
+						<name>zuvocloud-automotive:latest</name> <!-- customize this as needed -->
+					</image>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>

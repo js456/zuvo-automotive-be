@@ -1,0 +1,45 @@
+# --- Node / React ---
+node_modules/
+build/
+.env
+.env.*.local
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+*.iws
+out/
+
+# --- Java / Maven / Gradle ---
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# --- Logs ---
+*.log
+logs/
+*.log.*
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+
+# --- Editor-specific ---
+.vscode/
+*.swp
+*~
+
+# --- Coverage / Reports ---
+coverage/
+*.lcov
+*.coverage
+
+# --- NPM / Yarn debug ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Misc ---
+*.pid

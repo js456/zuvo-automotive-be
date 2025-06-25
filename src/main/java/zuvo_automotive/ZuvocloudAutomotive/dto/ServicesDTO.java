@@ -1,9 +1,6 @@
 package zuvo_automotive.ZuvocloudAutomotive.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDateTime;
 
@@ -11,12 +8,13 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Getter
 @Setter
+@Data
 public class ServicesDTO {
-    private int id;
-    private int tenantId;
+    private Integer id;
+    private Integer tenantId;
     private String name;
     private String description;
-    private double price;
-    private double durationMinutes;
+    private Double price;
+    private Double durationMinutes;
     private LocalDateTime createdAt;
 }
